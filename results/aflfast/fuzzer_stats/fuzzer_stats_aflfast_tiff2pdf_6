@@ -1,0 +1,27 @@
+start_time        : 1640889270
+last_update       : 1641001180
+fuzzer_pid        : 544792
+cycles_done       : 258
+execs_done        : 108442557
+execs_per_sec     : 1059.34
+paths_total       : 4901
+paths_favored     : 422
+paths_found       : 4900
+paths_imported    : 0
+max_depth         : 55
+cur_path          : 2141
+pending_favs      : 0
+pending_total     : 44
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 11.60%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1641000444
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 108442557
+exec_timeout      : 20
+afl_banner        : tiff2pdf
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -p fast -m none -d -i fuzz_in -o fuzz_out/fuzz_out_6 -- ./fuzz_bin/tiff2pdf @@ -o /dev/null

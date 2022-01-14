@@ -1,0 +1,27 @@
+start_time        : 1640453323
+last_update       : 1640539846
+fuzzer_pid        : 3345129
+cycles_done       : 280
+execs_done        : 108138965
+execs_per_sec     : 782.14
+paths_total       : 1851
+paths_favored     : 231
+paths_found       : 1845
+paths_imported    : 0
+max_depth         : 39
+cur_path          : 1813
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 3.79%
+unique_crashes    : 0
+unique_hangs      : 32
+last_path         : 1640539348
+last_crash        : 0
+last_hang         : 1640539276
+execs_since_crash : 108138965
+exec_timeout      : 20
+afl_banner        : fig2dev
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -p fast -m none -d -i fuzz_in -o fuzz_out/fuzz_out_3 -- ./fuzz_bin/fig2dev -L pdf -G .25:1cm -j -m 2 -N -P -x 3 -y 4 @@

@@ -1,0 +1,27 @@
+start_time        : 1640453315
+last_update       : 1640539846
+fuzzer_pid        : 2530071
+cycles_done       : 7
+execs_done        : 9529681
+execs_per_sec     : 108.98
+paths_total       : 3356
+paths_favored     : 106
+paths_found       : 3353
+paths_imported    : 0
+max_depth         : 78
+cur_path          : 3343
+pending_favs      : 2
+pending_total     : 2385
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 65.44%
+unique_crashes    : 0
+unique_hangs      : 28
+last_path         : 1640539760
+last_crash        : 0
+last_hang         : 1640532466
+execs_since_crash : 9529681
+exec_timeout      : 40
+afl_banner        : faust
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -p fast -m none -d -i fuzz_in -o fuzz_out/fuzz_out_2 -- ./fuzz_bin/faust -lang ocpp -e -lcc -exp10 -lb -rb -mem -sd @@

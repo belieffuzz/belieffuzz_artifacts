@@ -1,0 +1,27 @@
+start_time        : 1640889240
+last_update       : 1641001180
+fuzzer_pid        : 2681584
+cycles_done       : 106
+execs_done        : 33048254
+execs_per_sec     : 322.42
+paths_total       : 3791
+paths_favored     : 278
+paths_found       : 3790
+paths_imported    : 0
+max_depth         : 38
+cur_path          : 1088
+pending_favs      : 0
+pending_total     : 71
+variable_paths    : 1310
+stability         : 56.95%
+bitmap_cvg        : 15.92%
+unique_crashes    : 0
+unique_hangs      : 5
+last_path         : 1641001022
+last_crash        : 0
+last_hang         : 1640940358
+execs_since_crash : 33048254
+exec_timeout      : 20
+afl_banner        : magick
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -p fast -m none -d -i fuzz_in -o fuzz_out/fuzz_out_8 -- ./fuzz_bin/magick convert @@ jpeg:-

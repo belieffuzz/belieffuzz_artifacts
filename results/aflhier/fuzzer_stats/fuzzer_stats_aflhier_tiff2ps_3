@@ -1,0 +1,42 @@
+start_time        : 1640273133
+last_update       : 1640360411
+run_time          : 87278
+fuzzer_pid        : 1486375
+cycles_done       : 0
+cycles_wo_finds   : 0
+execs_done        : 23065387
+execs_per_sec     : 264.27
+execs_ps_last_min : 124.83
+paths_total       : 46264
+paths_favored     : 0
+paths_found       : 46263
+paths_imported    : 0
+max_depth         : 104
+cur_path          : 46263
+pending_favs      : 0
+pending_total     : 20493
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 11.05%
+unique_crashes    : 0
+unique_hangs      : 74
+last_path         : 1640360392
+last_crash        : 0
+last_hang         : 1640357915
+execs_since_crash : 23065387
+exec_timeout      : 100
+slowest_exec_ms   : 0
+peak_rss_mb       : 0
+cpu_affinity      : 66
+tree_nodes        : 20346 40511 46264
+tree_fuzzed_nodes : 19395 24484 25770
+tree_bits         : 0 0 0
+tree_fuzzed_bits  : 0 0 0
+time_log          : 144760 17326 12356
+edges_found       : 7242
+var_byte_count    : 0
+havoc_expansion   : 3
+afl_banner        : master
+afl_version       : ++2.68c
+target_mode       : qemu shmem_testcase 
+command_line      : ./afl-fuzz -Q -m none -d -M master -i fuzz_in -o fuzz_out/fuzz_out_3 -- ./fuzz_bin/tiff2ps @@

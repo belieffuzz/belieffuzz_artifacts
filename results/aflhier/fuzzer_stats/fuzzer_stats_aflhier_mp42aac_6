@@ -1,0 +1,42 @@
+start_time        : 1640273122
+last_update       : 1640360411
+run_time          : 87288
+fuzzer_pid        : 1329275
+cycles_done       : 0
+cycles_wo_finds   : 0
+execs_done        : 12019807
+execs_per_sec     : 137.70
+execs_ps_last_min : 36.87
+paths_total       : 6951
+paths_favored     : 0
+paths_found       : 6950
+paths_imported    : 0
+max_depth         : 112
+cur_path          : 6950
+pending_favs      : 0
+pending_total     : 756
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 6.10%
+unique_crashes    : 37
+unique_hangs      : 174
+last_path         : 1640360361
+last_crash        : 1640323013
+last_hang         : 1640351499
+execs_since_crash : 2526656
+exec_timeout      : 60
+slowest_exec_ms   : 0
+peak_rss_mb       : 0
+cpu_affinity      : 32
+tree_nodes        : 3567 5503 6949
+tree_fuzzed_nodes : 3567 5041 6194
+tree_bits         : 0 0 0
+tree_fuzzed_bits  : 0 0 0
+time_log          : 18256 2101 1707
+edges_found       : 3995
+var_byte_count    : 0
+havoc_expansion   : 3
+afl_banner        : master
+afl_version       : ++2.68c
+target_mode       : qemu shmem_testcase 
+command_line      : ./afl-fuzz -Q -m none -d -M master -i fuzz_in -o fuzz_out/fuzz_out_6 -- ./fuzz_bin/mp42aac @@ /dev/null

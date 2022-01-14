@@ -1,0 +1,27 @@
+start_time        : 1640453325
+last_update       : 1640539846
+fuzzer_pid        : 3584206
+cycles_done       : 82
+execs_done        : 11071972
+execs_per_sec     : 137.39
+paths_total       : 1645
+paths_favored     : 267
+paths_found       : 1644
+paths_imported    : 0
+max_depth         : 37
+cur_path          : 657
+pending_favs      : 1
+pending_total     : 137
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 11.58%
+unique_crashes    : 0
+unique_hangs      : 9
+last_path         : 1640539812
+last_crash        : 0
+last_hang         : 1640533336
+execs_since_crash : 11071972
+exec_timeout      : 20
+afl_banner        : MP4Box
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -p fast -m none -d -l -i fuzz_in -o fuzz_out/fuzz_out_122601_3 -- ./fuzz_bin/MP4Box -info -out /dev/null @@

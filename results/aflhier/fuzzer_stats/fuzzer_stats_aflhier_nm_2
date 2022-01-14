@@ -1,0 +1,42 @@
+start_time        : 1640889118
+last_update       : 1641001207
+run_time          : 112089
+fuzzer_pid        : 3875361
+cycles_done       : 1258469
+cycles_wo_finds   : 0
+execs_done        : 62917518
+execs_per_sec     : 561.32
+execs_ps_last_min : 561.11
+paths_total       : 1
+paths_favored     : 0
+paths_found       : 0
+paths_imported    : 0
+max_depth         : 1
+cur_path          : 0
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.18%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 0
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 62917518
+exec_timeout      : 60
+slowest_exec_ms   : 0
+peak_rss_mb       : 0
+cpu_affinity      : 80
+tree_nodes        : 1 1 1
+tree_fuzzed_nodes : 1 1 1
+tree_bits         : 0 0 0
+tree_fuzzed_bits  : 0 0 0
+time_log          : 475461 0 0
+edges_found       : 115
+var_byte_count    : 0
+havoc_expansion   : 3
+afl_banner        : master
+afl_version       : ++2.68c
+target_mode       : qemu shmem_testcase 
+command_line      : ./afl-fuzz -Q -m none -d -M master -i fuzz_in -o fuzz_out/fuzz_out_2 -- ./fuzz_bin/nm-new -C -a -l --synthetic @@

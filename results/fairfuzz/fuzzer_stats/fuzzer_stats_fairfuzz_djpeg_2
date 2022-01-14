@@ -1,0 +1,27 @@
+start_time        : 1640627036
+last_update       : 1640713570
+fuzzer_pid        : 3267951
+cycles_done       : 939
+execs_done        : 39122272
+execs_per_sec     : 234.56
+paths_total       : 2149
+paths_favored     : 148
+paths_found       : 2148
+paths_imported    : 0
+max_depth         : 25
+cur_path          : 1278
+pending_favs      : 15
+pending_total     : 1147
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 4.35%
+unique_crashes    : 0
+unique_hangs      : 18
+last_path         : 1640713550
+last_crash        : 0
+last_hang         : 1640632644
+execs_since_crash : 39122272
+exec_timeout      : 20
+afl_banner        : djpeg
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -m none -d -i fuzz_in -o fuzz_out/fuzz_out_2 -- ./fuzz_bin/djpeg @@

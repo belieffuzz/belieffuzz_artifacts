@@ -1,0 +1,27 @@
+start_time        : 1640889278
+last_update       : 1641001180
+fuzzer_pid        : 1300656
+cycles_done       : 247
+execs_done        : 84566509
+execs_per_sec     : 909.45
+paths_total       : 6503
+paths_favored     : 436
+paths_found       : 6502
+paths_imported    : 0
+max_depth         : 40
+cur_path          : 246
+pending_favs      : 0
+pending_total     : 156
+variable_paths    : 1567
+stability         : 40.94%
+bitmap_cvg        : 14.03%
+unique_crashes    : 0
+unique_hangs      : 22
+last_path         : 1641001058
+last_crash        : 0
+last_hang         : 1640930027
+execs_since_crash : 84566509
+exec_timeout      : 20
+afl_banner        : tiffcrop
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -p fast -m none -d -i fuzz_in -o fuzz_out/fuzz_out_6 -- ./fuzz_bin/tiffcrop -i @@ output.tiff

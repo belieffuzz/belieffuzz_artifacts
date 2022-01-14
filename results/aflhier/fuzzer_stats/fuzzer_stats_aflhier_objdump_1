@@ -1,0 +1,42 @@
+start_time        : 1640273126
+last_update       : 1640360411
+run_time          : 87284
+fuzzer_pid        : 1358299
+cycles_done       : 1
+cycles_wo_finds   : 0
+execs_done        : 10883573
+execs_per_sec     : 124.69
+execs_ps_last_min : 164.58
+paths_total       : 26481
+paths_favored     : 0
+paths_found       : 26480
+paths_imported    : 0
+max_depth         : 97
+cur_path          : 19810
+pending_favs      : 0
+pending_total     : 12867
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 12.23%
+unique_crashes    : 0
+unique_hangs      : 356
+last_path         : 1640360387
+last_crash        : 0
+last_hang         : 1640360385
+execs_since_crash : 10883573
+exec_timeout      : 80
+slowest_exec_ms   : 0
+peak_rss_mb       : 0
+cpu_affinity      : 42
+tree_nodes        : 10987 23313 26468
+tree_fuzzed_nodes : 10124 12953 13611
+tree_bits         : 0 0 0
+tree_fuzzed_bits  : 0 0 0
+time_log          : 36986 9445 6171
+edges_found       : 8018
+var_byte_count    : 0
+havoc_expansion   : 3
+afl_banner        : master
+afl_version       : ++2.68c
+target_mode       : qemu shmem_testcase 
+command_line      : ./afl-fuzz -Q -m none -d -M master -i fuzz_in -o fuzz_out/fuzz_out_1 -- ./fuzz_bin/objdump -D @@

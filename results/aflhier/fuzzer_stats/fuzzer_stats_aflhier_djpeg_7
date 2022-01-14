@@ -1,0 +1,42 @@
+start_time        : 1640273116
+last_update       : 1640360411
+run_time          : 87294
+fuzzer_pid        : 1315997
+cycles_done       : 111
+cycles_wo_finds   : 0
+execs_done        : 16287878
+execs_per_sec     : 186.59
+execs_ps_last_min : 207.41
+paths_total       : 625
+paths_favored     : 0
+paths_found       : 624
+paths_imported    : 0
+max_depth         : 29
+cur_path          : 191
+pending_favs      : 0
+pending_total     : 34
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.22%
+unique_crashes    : 0
+unique_hangs      : 1
+last_path         : 1640342755
+last_crash        : 0
+last_hang         : 1640273135
+execs_since_crash : 16287878
+exec_timeout      : 60
+slowest_exec_ms   : 0
+peak_rss_mb       : 0
+cpu_affinity      : 14
+tree_nodes        : 4 101 622
+tree_fuzzed_nodes : 4 101 591
+tree_bits         : 0 0 0
+tree_fuzzed_bits  : 0 0 0
+time_log          : 12990 84 106
+edges_found       : 144
+var_byte_count    : 0
+havoc_expansion   : 3
+afl_banner        : master
+afl_version       : ++2.68c
+target_mode       : qemu shmem_testcase 
+command_line      : ./afl-fuzz -Q -m none -d -M master -i fuzz_in -o fuzz_out/fuzz_out_7 -- ./fuzz_bin/djpeg @@

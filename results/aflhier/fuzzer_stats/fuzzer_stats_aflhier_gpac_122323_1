@@ -1,0 +1,42 @@
+start_time        : 1640273146
+last_update       : 1640360411
+run_time          : 87264
+fuzzer_pid        : 1808442
+cycles_done       : 42416
+cycles_wo_finds   : 0
+execs_done        : 22200415
+execs_per_sec     : 254.40
+execs_ps_last_min : 252.03
+paths_total       : 123
+paths_favored     : 0
+paths_found       : 122
+paths_imported    : 0
+max_depth         : 14
+cur_path          : 48
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 5.35%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1640359212
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 22200415
+exec_timeout      : 80
+slowest_exec_ms   : 0
+peak_rss_mb       : 0
+cpu_affinity      : 92
+tree_nodes        : 1 1 123
+tree_fuzzed_nodes : 1 1 123
+tree_bits         : 0 0 0
+tree_fuzzed_bits  : 0 0 0
+time_log          : 22462 28 33
+edges_found       : 3503
+var_byte_count    : 0
+havoc_expansion   : 3
+afl_banner        : master
+afl_version       : ++2.68c
+target_mode       : qemu shmem_testcase 
+command_line      : ./afl-fuzz -Q -m none -d -l -M master -i fuzz_in -o fuzz_out/fuzz_out_122323_1 -- ./fuzz_bin/MP4Box -info -out /dev/null @@

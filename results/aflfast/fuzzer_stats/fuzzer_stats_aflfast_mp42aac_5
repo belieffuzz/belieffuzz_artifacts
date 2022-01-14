@@ -1,0 +1,27 @@
+start_time        : 1640889231
+last_update       : 1641001180
+fuzzer_pid        : 2539022
+cycles_done       : 538
+execs_done        : 126664974
+execs_per_sec     : 1609.30
+paths_total       : 1983
+paths_favored     : 122
+paths_found       : 1982
+paths_imported    : 0
+max_depth         : 34
+cur_path          : 1420
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 3.90%
+unique_crashes    : 29
+unique_hangs      : 175
+last_path         : 1640996779
+last_crash        : 1640988733
+last_hang         : 1640995643
+execs_since_crash : 13737286
+exec_timeout      : 20
+afl_banner        : mp42aac
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -p fast -m none -d -i fuzz_in -o fuzz_out/fuzz_out_5 -- ./fuzz_bin/mp42aac @@ /dev/null
